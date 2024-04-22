@@ -1,0 +1,136 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.menu-horizontal {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-horizontal li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-horizontal li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.section {
+    padding: 20px;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.formulario h1 {
+    text-align: center;
+}
+
+.formulario input[type="text"],
+.formulario input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario .Registrarse {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contacto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+}
+
+.contacto h2 {
+    text-align: center;
+}
+
+.contacto label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto input[type="tel"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contacto button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilos específicos */
+
+#titulo {
+    margin: 0;
+}
+
+.ojo {
+    font-style: italic;
+}
+
+#titulo, .ojo {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
